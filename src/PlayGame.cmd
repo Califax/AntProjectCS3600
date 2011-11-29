@@ -1,0 +1,1 @@
+python tools/playgame.py --fill --log_dir game_logs --turns 350 --engine_seed 42 --player_seed 42 --verbose -e --map_file "%~dp0\tools\maps\multi_hill_maze\maze_03p_01.map" %* "java -jar MyBot2.jar" "java -jar MyBot.jar"

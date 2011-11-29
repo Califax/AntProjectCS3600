@@ -1,0 +1,2225 @@
+DEBUG:root:Turn Number: 1
+DEBUG:root:Time Remaining before updating dead ants: 968
+DEBUG:root:Time Remaining after updating dead ants: 968
+DEBUG:root:Time Remaining after appending: 959
+DEBUG:root:Time Remaining After Move: 931
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 931
+DEBUG:root:Time Remaining before doing move_ants(): 931
+DEBUG:root:Time Remaining after doing move_ants(): 930
+DEBUG:root:Time Remaining after doing deleteOrders(): 930
+DEBUG:root:Turn Number: 2
+DEBUG:root:Time Remaining before updating dead ants: 1000
+DEBUG:root:Time Remaining after updating dead ants: 1000
+DEBUG:root:Time Remaining after appending: 991
+DEBUG:root:Time Remaining After Move: 964
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 964
+DEBUG:root:Time Remaining before doing move_ants(): 964
+DEBUG:root:Time Remaining after doing move_ants(): 963
+DEBUG:root:Time Remaining after doing deleteOrders(): 963
+DEBUG:root:Turn Number: 3
+DEBUG:root:Time Remaining before updating dead ants: 1000
+DEBUG:root:Time Remaining after updating dead ants: 1000
+DEBUG:root:Time Remaining after appending: 990
+DEBUG:root:Time Remaining After Move: 964
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 963
+DEBUG:root:Time Remaining before doing move_ants(): 963
+DEBUG:root:Time Remaining after doing move_ants(): 963
+DEBUG:root:Time Remaining after doing deleteOrders(): 963
+DEBUG:root:Turn Number: 4
+DEBUG:root:Time Remaining before updating dead ants: 1000
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 988
+DEBUG:root:Time Remaining After Move: 988
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 988
+DEBUG:root:Time Remaining before doing move_ants(): 988
+DEBUG:root:Time Remaining after doing move_ants(): 987
+DEBUG:root:Time Remaining after doing deleteOrders(): 987
+DEBUG:root:Turn Number: 5
+DEBUG:root:Time Remaining before updating dead ants: 1000
+DEBUG:root:Time Remaining after updating dead ants: 1000
+DEBUG:root:Time Remaining after appending: 991
+DEBUG:root:Time Remaining After Move: 990
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 990
+DEBUG:root:Time Remaining before doing move_ants(): 990
+DEBUG:root:Time Remaining after doing move_ants(): 990
+DEBUG:root:Time Remaining after doing deleteOrders(): 990
+DEBUG:root:Turn Number: 6
+DEBUG:root:Time Remaining before updating dead ants: 1000
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 990
+DEBUG:root:Time Remaining After Move: 990
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 990
+DEBUG:root:Time Remaining before doing move_ants(): 989
+DEBUG:root:Time Remaining after doing move_ants(): 989
+DEBUG:root:Time Remaining after doing deleteOrders(): 989
+DEBUG:root:Turn Number: 7
+DEBUG:root:Time Remaining before updating dead ants: 1000
+DEBUG:root:Time Remaining after updating dead ants: 1000
+DEBUG:root:Time Remaining after appending: 991
+DEBUG:root:Time Remaining After Move: 990
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 990
+DEBUG:root:Time Remaining before doing move_ants(): 990
+DEBUG:root:Time Remaining after doing move_ants(): 990
+DEBUG:root:Time Remaining after doing deleteOrders(): 990
+DEBUG:root:Turn Number: 8
+DEBUG:root:Time Remaining before updating dead ants: 1000
+DEBUG:root:Time Remaining after updating dead ants: 1000
+DEBUG:root:Time Remaining after appending: 990
+DEBUG:root:Time Remaining After Move: 956
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 955
+DEBUG:root:Time Remaining before doing move_ants(): 955
+DEBUG:root:Time Remaining after doing move_ants(): 955
+DEBUG:root:Time Remaining after doing deleteOrders(): 955
+DEBUG:root:Turn Number: 9
+DEBUG:root:Time Remaining before updating dead ants: 1000
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 989
+DEBUG:root:Time Remaining After Move: 963
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 963
+DEBUG:root:Time Remaining before doing move_ants(): 963
+DEBUG:root:Time Remaining after doing move_ants(): 963
+DEBUG:root:Time Remaining after doing deleteOrders(): 963
+DEBUG:root:Turn Number: 10
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 990
+DEBUG:root:Time Remaining After Move: 960
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 960
+DEBUG:root:Time Remaining before doing move_ants(): 960
+DEBUG:root:Time Remaining after doing move_ants(): 960
+DEBUG:root:Time Remaining after doing deleteOrders(): 960
+DEBUG:root:Turn Number: 11
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 988
+DEBUG:root:Time Remaining After Move: 961
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 961
+DEBUG:root:Time Remaining before doing move_ants(): 961
+DEBUG:root:Time Remaining after doing move_ants(): 961
+DEBUG:root:Time Remaining after doing deleteOrders(): 960
+DEBUG:root:Turn Number: 12
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 988
+DEBUG:root:Time Remaining After Move: 960
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 960
+DEBUG:root:Time Remaining before doing move_ants(): 960
+DEBUG:root:Time Remaining after doing move_ants(): 960
+DEBUG:root:Time Remaining after doing deleteOrders(): 960
+DEBUG:root:Turn Number: 13
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 990
+DEBUG:root:Time Remaining After Move: 953
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 953
+DEBUG:root:Time Remaining before doing move_ants(): 953
+DEBUG:root:Time Remaining after doing move_ants(): 953
+DEBUG:root:Time Remaining after doing deleteOrders(): 953
+DEBUG:root:Turn Number: 14
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 990
+DEBUG:root:Time Remaining After Move: 990
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 989
+DEBUG:root:Time Remaining before doing move_ants(): 989
+DEBUG:root:Time Remaining after doing move_ants(): 989
+DEBUG:root:Time Remaining after doing deleteOrders(): 989
+DEBUG:root:Turn Number: 15
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 989
+DEBUG:root:Time Remaining After Move: 989
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 989
+DEBUG:root:Time Remaining before doing move_ants(): 989
+DEBUG:root:Time Remaining after doing move_ants(): 988
+DEBUG:root:Time Remaining after doing deleteOrders(): 988
+DEBUG:root:Turn Number: 16
+DEBUG:root:Time Remaining before updating dead ants: 1000
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 990
+DEBUG:root:Time Remaining After Move: 990
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 990
+DEBUG:root:Time Remaining before doing move_ants(): 990
+DEBUG:root:Time Remaining after doing move_ants(): 989
+DEBUG:root:Time Remaining after doing deleteOrders(): 989
+DEBUG:root:Turn Number: 17
+DEBUG:root:Time Remaining before updating dead ants: 1000
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 989
+DEBUG:root:Time Remaining After Move: 989
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 989
+DEBUG:root:Time Remaining before doing move_ants(): 989
+DEBUG:root:Time Remaining after doing move_ants(): 988
+DEBUG:root:Time Remaining after doing deleteOrders(): 988
+DEBUG:root:Turn Number: 18
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 988
+DEBUG:root:Time Remaining After Move: 988
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 988
+DEBUG:root:Time Remaining before doing move_ants(): 988
+DEBUG:root:Time Remaining after doing move_ants(): 988
+DEBUG:root:Time Remaining after doing deleteOrders(): 988
+DEBUG:root:Turn Number: 19
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 984
+DEBUG:root:Time Remaining After Move: 984
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 984
+DEBUG:root:Time Remaining before doing move_ants(): 983
+DEBUG:root:Time Remaining after doing move_ants(): 983
+DEBUG:root:Time Remaining after doing deleteOrders(): 983
+DEBUG:root:Turn Number: 20
+DEBUG:root:Time Remaining before updating dead ants: 1000
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 988
+DEBUG:root:Time Remaining After Move: 960
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 960
+DEBUG:root:Time Remaining before doing move_ants(): 960
+DEBUG:root:Time Remaining after doing move_ants(): 960
+DEBUG:root:Time Remaining after doing deleteOrders(): 960
+DEBUG:root:Turn Number: 21
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 989
+DEBUG:root:Time Remaining After Move: 930
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 930
+DEBUG:root:Time Remaining before doing move_ants(): 930
+DEBUG:root:Time Remaining after doing move_ants(): 930
+DEBUG:root:Time Remaining after doing deleteOrders(): 930
+DEBUG:root:Turn Number: 22
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 988
+DEBUG:root:Time Remaining After Move: 959
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 959
+DEBUG:root:Time Remaining before doing move_ants(): 959
+DEBUG:root:Time Remaining after doing move_ants(): 959
+DEBUG:root:Time Remaining after doing deleteOrders(): 959
+DEBUG:root:Turn Number: 23
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 987
+DEBUG:root:Time Remaining After Move: 931
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 930
+DEBUG:root:Time Remaining before doing move_ants(): 930
+DEBUG:root:Time Remaining after doing move_ants(): 930
+DEBUG:root:Time Remaining after doing deleteOrders(): 930
+DEBUG:root:Turn Number: 24
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 986
+DEBUG:root:Time Remaining After Move: 924
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 924
+DEBUG:root:Time Remaining before doing move_ants(): 924
+DEBUG:root:Time Remaining after doing move_ants(): 923
+DEBUG:root:Time Remaining after doing deleteOrders(): 923
+DEBUG:root:Turn Number: 25
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 983
+DEBUG:root:Time Remaining After Move: 954
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 954
+DEBUG:root:Time Remaining before doing move_ants(): 954
+DEBUG:root:Time Remaining after doing move_ants(): 954
+DEBUG:root:Time Remaining after doing deleteOrders(): 953
+DEBUG:root:Turn Number: 26
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 988
+DEBUG:root:Time Remaining After Move: 957
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 957
+DEBUG:root:Time Remaining before doing move_ants(): 957
+DEBUG:root:Time Remaining after doing move_ants(): 957
+DEBUG:root:Time Remaining after doing deleteOrders(): 957
+DEBUG:root:Turn Number: 27
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 988
+DEBUG:root:Time Remaining After Move: 957
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 957
+DEBUG:root:Time Remaining before doing move_ants(): 957
+DEBUG:root:Time Remaining after doing move_ants(): 957
+DEBUG:root:Time Remaining after doing deleteOrders(): 957
+DEBUG:root:Turn Number: 28
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 988
+DEBUG:root:Time Remaining After Move: 988
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 988
+DEBUG:root:Time Remaining before doing move_ants(): 988
+DEBUG:root:Time Remaining after doing move_ants(): 988
+DEBUG:root:Time Remaining after doing deleteOrders(): 988
+DEBUG:root:Turn Number: 29
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 989
+DEBUG:root:Time Remaining After Move: 988
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 988
+DEBUG:root:Time Remaining before doing move_ants(): 988
+DEBUG:root:Time Remaining after doing move_ants(): 988
+DEBUG:root:Time Remaining after doing deleteOrders(): 988
+DEBUG:root:Turn Number: 30
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 989
+DEBUG:root:Time Remaining After Move: 957
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 957
+DEBUG:root:Time Remaining before doing move_ants(): 957
+DEBUG:root:Time Remaining after doing move_ants(): 956
+DEBUG:root:Time Remaining after doing deleteOrders(): 956
+DEBUG:root:Turn Number: 31
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 987
+DEBUG:root:Time Remaining After Move: 921
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 920
+DEBUG:root:Time Remaining before doing move_ants(): 920
+DEBUG:root:Time Remaining after doing move_ants(): 920
+DEBUG:root:Time Remaining after doing deleteOrders(): 920
+DEBUG:root:Turn Number: 32
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 988
+DEBUG:root:Time Remaining After Move: 957
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 957
+DEBUG:root:Time Remaining before doing move_ants(): 957
+DEBUG:root:Time Remaining after doing move_ants(): 956
+DEBUG:root:Time Remaining after doing deleteOrders(): 956
+DEBUG:root:Turn Number: 33
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 988
+DEBUG:root:Time Remaining After Move: 987
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 987
+DEBUG:root:Time Remaining before doing move_ants(): 987
+DEBUG:root:Time Remaining after doing move_ants(): 987
+DEBUG:root:Time Remaining after doing deleteOrders(): 987
+DEBUG:root:Turn Number: 34
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 988
+DEBUG:root:Time Remaining After Move: 916
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 916
+DEBUG:root:Time Remaining before doing move_ants(): 915
+DEBUG:root:Time Remaining after doing move_ants(): 915
+DEBUG:root:Time Remaining after doing deleteOrders(): 915
+DEBUG:root:Turn Number: 35
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 987
+DEBUG:root:Time Remaining After Move: 956
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 956
+DEBUG:root:Time Remaining before doing move_ants(): 956
+DEBUG:root:Time Remaining after doing move_ants(): 956
+DEBUG:root:Time Remaining after doing deleteOrders(): 956
+DEBUG:root:Turn Number: 36
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 987
+DEBUG:root:Time Remaining After Move: 954
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 954
+DEBUG:root:Time Remaining before doing move_ants(): 953
+DEBUG:root:Time Remaining after doing move_ants(): 953
+DEBUG:root:Time Remaining after doing deleteOrders(): 953
+DEBUG:root:Turn Number: 37
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 985
+DEBUG:root:Time Remaining After Move: 953
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 953
+DEBUG:root:Time Remaining before doing move_ants(): 953
+DEBUG:root:Time Remaining after doing move_ants(): 952
+DEBUG:root:Time Remaining after doing deleteOrders(): 952
+DEBUG:root:Turn Number: 38
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 984
+DEBUG:root:Time Remaining After Move: 983
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 983
+DEBUG:root:Time Remaining before doing move_ants(): 983
+DEBUG:root:Time Remaining after doing move_ants(): 983
+DEBUG:root:Time Remaining after doing deleteOrders(): 983
+DEBUG:root:Turn Number: 39
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 987
+DEBUG:root:Time Remaining After Move: 920
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 919
+DEBUG:root:Time Remaining before doing move_ants(): 919
+DEBUG:root:Time Remaining after doing move_ants(): 918
+DEBUG:root:Time Remaining after doing deleteOrders(): 917
+DEBUG:root:Turn Number: 40
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 986
+DEBUG:root:Time Remaining After Move: 914
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 914
+DEBUG:root:Time Remaining before doing move_ants(): 914
+DEBUG:root:Time Remaining after doing move_ants(): 913
+DEBUG:root:Time Remaining after doing deleteOrders(): 913
+DEBUG:root:Turn Number: 41
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 987
+DEBUG:root:Time Remaining After Move: 986
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 986
+DEBUG:root:Time Remaining before doing move_ants(): 986
+DEBUG:root:Time Remaining after doing move_ants(): 985
+DEBUG:root:Time Remaining after doing deleteOrders(): 985
+DEBUG:root:Turn Number: 42
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 987
+DEBUG:root:Time Remaining After Move: 916
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 916
+DEBUG:root:Time Remaining before doing move_ants(): 915
+DEBUG:root:Time Remaining after doing move_ants(): 915
+DEBUG:root:Time Remaining after doing deleteOrders(): 915
+DEBUG:root:Turn Number: 43
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 985
+DEBUG:root:Time Remaining After Move: 916
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 916
+DEBUG:root:Time Remaining before doing move_ants(): 916
+DEBUG:root:Time Remaining after doing move_ants(): 915
+DEBUG:root:Time Remaining after doing deleteOrders(): 915
+DEBUG:root:Turn Number: 44
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 987
+DEBUG:root:Time Remaining After Move: 920
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 920
+DEBUG:root:Time Remaining before doing move_ants(): 920
+DEBUG:root:Time Remaining after doing move_ants(): 919
+DEBUG:root:Time Remaining after doing deleteOrders(): 919
+DEBUG:root:Turn Number: 45
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 986
+DEBUG:root:Time Remaining After Move: 915
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 915
+DEBUG:root:Time Remaining before doing move_ants(): 915
+DEBUG:root:Time Remaining after doing move_ants(): 914
+DEBUG:root:Time Remaining after doing deleteOrders(): 914
+DEBUG:root:Turn Number: 46
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 987
+DEBUG:root:Time Remaining After Move: 952
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 952
+DEBUG:root:Time Remaining before doing move_ants(): 952
+DEBUG:root:Time Remaining after doing move_ants(): 952
+DEBUG:root:Time Remaining after doing deleteOrders(): 952
+DEBUG:root:Turn Number: 47
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 984
+DEBUG:root:Time Remaining After Move: 913
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 913
+DEBUG:root:Time Remaining before doing move_ants(): 913
+DEBUG:root:Time Remaining after doing move_ants(): 912
+DEBUG:root:Time Remaining after doing deleteOrders(): 912
+DEBUG:root:Turn Number: 48
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 987
+DEBUG:root:Time Remaining After Move: 950
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 950
+DEBUG:root:Time Remaining before doing move_ants(): 950
+DEBUG:root:Time Remaining after doing move_ants(): 949
+DEBUG:root:Time Remaining after doing deleteOrders(): 949
+DEBUG:root:Turn Number: 49
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 986
+DEBUG:root:Time Remaining After Move: 950
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 949
+DEBUG:root:Time Remaining before doing move_ants(): 949
+DEBUG:root:Time Remaining after doing move_ants(): 949
+DEBUG:root:Time Remaining after doing deleteOrders(): 948
+DEBUG:root:Turn Number: 50
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 986
+DEBUG:root:Time Remaining After Move: 912
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 911
+DEBUG:root:Time Remaining before doing move_ants(): 911
+DEBUG:root:Time Remaining after doing move_ants(): 911
+DEBUG:root:Time Remaining after doing deleteOrders(): 911
+DEBUG:root:Turn Number: 51
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 999
+DEBUG:root:Time Remaining after appending: 986
+DEBUG:root:Time Remaining After Move: 952
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 951
+DEBUG:root:Time Remaining before doing move_ants(): 951
+DEBUG:root:Time Remaining after doing move_ants(): 951
+DEBUG:root:Time Remaining after doing deleteOrders(): 951
+DEBUG:root:Turn Number: 52
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 984
+DEBUG:root:Time Remaining After Move: 947
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 947
+DEBUG:root:Time Remaining before doing move_ants(): 947
+DEBUG:root:Time Remaining after doing move_ants(): 946
+DEBUG:root:Time Remaining after doing deleteOrders(): 946
+DEBUG:root:Turn Number: 53
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 985
+DEBUG:root:Time Remaining After Move: 877
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 877
+DEBUG:root:Time Remaining before doing move_ants(): 876
+DEBUG:root:Time Remaining after doing move_ants(): 876
+DEBUG:root:Time Remaining after doing deleteOrders(): 876
+DEBUG:root:Turn Number: 54
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 986
+DEBUG:root:Time Remaining After Move: 833
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 832
+DEBUG:root:Time Remaining before doing move_ants(): 832
+DEBUG:root:Time Remaining after doing move_ants(): 832
+DEBUG:root:Time Remaining after doing deleteOrders(): 832
+DEBUG:root:Turn Number: 55
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 984
+DEBUG:root:Time Remaining After Move: 900
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 899
+DEBUG:root:Time Remaining before doing move_ants(): 899
+DEBUG:root:Time Remaining after doing move_ants(): 899
+DEBUG:root:Time Remaining after doing deleteOrders(): 899
+DEBUG:root:Turn Number: 56
+DEBUG:root:Time Remaining before updating dead ants: 999
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 981
+DEBUG:root:Time Remaining After Move: 862
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 862
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 862
+DEBUG:root:Time Remaining after doing move_ants(): 861
+DEBUG:root:Time Remaining after doing deleteOrders(): 861
+DEBUG:root:Turn Number: 57
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 985
+DEBUG:root:Time Remaining After Move: 947
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 947
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 947
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 946
+DEBUG:root:Time Remaining after doing deleteOrders(): 946
+DEBUG:root:Turn Number: 58
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 979
+DEBUG:root:Time Remaining After Move: 810
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 810
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 809
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 809
+DEBUG:root:Time Remaining after doing deleteOrders(): 809
+DEBUG:root:Turn Number: 59
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 983
+DEBUG:root:Time Remaining After Move: 811
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 810
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 810
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 809
+DEBUG:root:Time Remaining after doing deleteOrders(): 809
+DEBUG:root:Turn Number: 60
+DEBUG:root:Time Remaining before updating dead ants: 994
+DEBUG:root:Time Remaining after updating dead ants: 994
+DEBUG:root:Time Remaining after appending: 979
+DEBUG:root:Time Remaining After Move: 808
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 808
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 808
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 807
+DEBUG:root:Time Remaining after doing deleteOrders(): 807
+DEBUG:root:Turn Number: 61
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 982
+DEBUG:root:Time Remaining After Move: 859
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 859
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 858
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 857
+DEBUG:root:Time Remaining after doing deleteOrders(): 857
+DEBUG:root:Turn Number: 62
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 983
+DEBUG:root:Time Remaining After Move: 803
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 803
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 802
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 801
+DEBUG:root:Time Remaining after doing deleteOrders(): 801
+DEBUG:root:Turn Number: 63
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 983
+DEBUG:root:Time Remaining After Move: 721
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 721
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 721
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 720
+DEBUG:root:Time Remaining after doing deleteOrders(): 720
+DEBUG:root:Turn Number: 64
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 982
+DEBUG:root:Time Remaining After Move: 699
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 698
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 698
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 697
+DEBUG:root:Time Remaining after doing deleteOrders(): 697
+DEBUG:root:Turn Number: 65
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 980
+DEBUG:root:Time Remaining After Move: 737
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 736
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 736
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 735
+DEBUG:root:Time Remaining after doing deleteOrders(): 735
+DEBUG:root:Turn Number: 66
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 976
+DEBUG:root:Time Remaining After Move: 735
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 735
+DEBUG:root:Time Remaining before doing move_ants(): 735
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 734
+DEBUG:root:Time Remaining after doing deleteOrders(): 734
+DEBUG:root:Turn Number: 67
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 982
+DEBUG:root:Time Remaining After Move: 790
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 790
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 790
+DEBUG:root:Time Remaining after doing move_ants(): 789
+DEBUG:root:Time Remaining after doing deleteOrders(): 789
+DEBUG:root:Turn Number: 68
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 981
+DEBUG:root:Time Remaining After Move: 839
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 839
+DEBUG:root:Time Remaining before doing move_ants(): 839
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 837
+DEBUG:root:Time Remaining after doing deleteOrders(): 837
+DEBUG:root:Turn Number: 69
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 979
+DEBUG:root:Time Remaining After Move: 581
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 580
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 580
+DEBUG:root:Time Remaining after doing move_ants(): 579
+DEBUG:root:Time Remaining after doing deleteOrders(): 579
+DEBUG:root:Turn Number: 70
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 980
+DEBUG:root:Time Remaining After Move: 838
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 838
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 838
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 836
+DEBUG:root:Time Remaining after doing deleteOrders(): 836
+DEBUG:root:Turn Number: 71
+DEBUG:root:Time Remaining before updating dead ants: 993
+DEBUG:root:Time Remaining after updating dead ants: 993
+DEBUG:root:Time Remaining after appending: 976
+DEBUG:root:Time Remaining After Move: 725
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 725
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 724
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 723
+DEBUG:root:Time Remaining after doing deleteOrders(): 723
+DEBUG:root:Turn Number: 72
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 998
+DEBUG:root:Time Remaining after appending: 981
+DEBUG:root:Time Remaining After Move: 728
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 728
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 727
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 726
+DEBUG:root:Time Remaining after doing deleteOrders(): 726
+DEBUG:root:Turn Number: 73
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 981
+DEBUG:root:Time Remaining After Move: 620
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 620
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 619
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 618
+DEBUG:root:Time Remaining after doing deleteOrders(): 618
+DEBUG:root:Turn Number: 74
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 980
+DEBUG:root:Time Remaining After Move: 723
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 723
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 722
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 721
+DEBUG:root:Time Remaining after doing deleteOrders(): 721
+DEBUG:root:Turn Number: 75
+DEBUG:root:Time Remaining before updating dead ants: 998
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 976
+DEBUG:root:Time Remaining After Move: 670
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 670
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 670
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 668
+DEBUG:root:Time Remaining after doing deleteOrders(): 668
+DEBUG:root:Turn Number: 76
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 978
+DEBUG:root:Time Remaining After Move: 417
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 417
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 416
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 415
+DEBUG:root:Time Remaining after doing deleteOrders(): 415
+DEBUG:root:Turn Number: 77
+DEBUG:root:Time Remaining before updating dead ants: 992
+DEBUG:root:Time Remaining after updating dead ants: 992
+DEBUG:root:Time Remaining after appending: 972
+DEBUG:root:Time Remaining After Move: 520
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 520
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 520
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 518
+DEBUG:root:Time Remaining after doing deleteOrders(): 518
+DEBUG:root:Turn Number: 78
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 980
+DEBUG:root:Time Remaining After Move: 448
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 448
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 447
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 444
+DEBUG:root:Time Remaining after doing deleteOrders(): 444
+DEBUG:root:Turn Number: 79
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 980
+DEBUG:root:Time Remaining After Move: 587
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 586
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 586
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 585
+DEBUG:root:Time Remaining after doing deleteOrders(): 584
+DEBUG:root:Turn Number: 80
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 979
+DEBUG:root:Time Remaining After Move: 713
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 713
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 712
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 711
+DEBUG:root:Time Remaining after doing deleteOrders(): 711
+DEBUG:root:Turn Number: 81
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 981
+DEBUG:root:Time Remaining After Move: 707
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 706
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 706
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 704
+DEBUG:root:Time Remaining after doing deleteOrders(): 704
+DEBUG:root:Turn Number: 82
+DEBUG:root:Time Remaining before updating dead ants: 994
+DEBUG:root:Time Remaining after updating dead ants: 994
+DEBUG:root:Time Remaining after appending: 978
+DEBUG:root:Time Remaining After Move: 549
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 548
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 548
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 546
+DEBUG:root:Time Remaining after doing deleteOrders(): 546
+DEBUG:root:Turn Number: 83
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 979
+DEBUG:root:Time Remaining After Move: 708
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 708
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 707
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 706
+DEBUG:root:Time Remaining after doing deleteOrders(): 706
+DEBUG:root:Turn Number: 84
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 981
+DEBUG:root:Time Remaining After Move: 670
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 670
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 669
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 668
+DEBUG:root:Time Remaining after doing deleteOrders(): 668
+DEBUG:root:Turn Number: 85
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 981
+DEBUG:root:Time Remaining After Move: 758
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 757
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 757
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 755
+DEBUG:root:Time Remaining after doing deleteOrders(): 755
+DEBUG:root:Turn Number: 86
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 980
+DEBUG:root:Time Remaining After Move: 364
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 363
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 362
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 361
+DEBUG:root:Time Remaining after doing deleteOrders(): 361
+DEBUG:root:Turn Number: 87
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 979
+DEBUG:root:Time Remaining After Move: 798
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 798
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 798
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 796
+DEBUG:root:Time Remaining after doing deleteOrders(): 796
+DEBUG:root:Turn Number: 88
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 981
+DEBUG:root:Time Remaining After Move: 459
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 459
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 458
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 457
+DEBUG:root:Time Remaining after doing deleteOrders(): 457
+DEBUG:root:Turn Number: 89
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 981
+DEBUG:root:Time Remaining After Move: 672
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 672
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 671
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 670
+DEBUG:root:Time Remaining after doing deleteOrders(): 670
+DEBUG:root:Turn Number: 90
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 980
+DEBUG:root:Time Remaining After Move: 600
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 599
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 598
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 597
+DEBUG:root:Time Remaining after doing deleteOrders(): 597
+DEBUG:root:Turn Number: 91
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 978
+DEBUG:root:Time Remaining After Move: 574
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 573
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 573
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 571
+DEBUG:root:Time Remaining after doing deleteOrders(): 571
+DEBUG:root:Turn Number: 92
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 980
+DEBUG:root:Time Remaining After Move: 544
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 544
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 543
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 542
+DEBUG:root:Time Remaining after doing deleteOrders(): 542
+DEBUG:root:Turn Number: 93
+DEBUG:root:Time Remaining before updating dead ants: 994
+DEBUG:root:Time Remaining after updating dead ants: 993
+DEBUG:root:Time Remaining after appending: 976
+DEBUG:root:Time Remaining After Move: 579
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 579
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 579
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 577
+DEBUG:root:Time Remaining after doing deleteOrders(): 577
+DEBUG:root:Turn Number: 94
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 973
+DEBUG:root:Time Remaining After Move: 566
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 565
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 565
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 561
+DEBUG:root:Time Remaining after doing deleteOrders(): 560
+DEBUG:root:Turn Number: 95
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 979
+DEBUG:root:Time Remaining After Move: 579
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 579
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 578
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 577
+DEBUG:root:Time Remaining after doing deleteOrders(): 577
+DEBUG:root:Turn Number: 96
+DEBUG:root:Time Remaining before updating dead ants: 988
+DEBUG:root:Time Remaining after updating dead ants: 988
+DEBUG:root:Time Remaining after appending: 971
+DEBUG:root:Time Remaining After Move: 488
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 488
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 486
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 484
+DEBUG:root:Time Remaining after doing deleteOrders(): 484
+DEBUG:root:Turn Number: 97
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 979
+DEBUG:root:Time Remaining After Move: 508
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 507
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 506
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 505
+DEBUG:root:Time Remaining after doing deleteOrders(): 505
+DEBUG:root:Turn Number: 98
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 979
+DEBUG:root:Time Remaining After Move: 233
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 233
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 232
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 231
+DEBUG:root:Time Remaining after doing deleteOrders(): 230
+DEBUG:root:Turn Number: 99
+DEBUG:root:Time Remaining before updating dead ants: 991
+DEBUG:root:Time Remaining after updating dead ants: 991
+DEBUG:root:Time Remaining after appending: 971
+DEBUG:root:Time Remaining After Move: 449
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 449
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 448
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 446
+DEBUG:root:Time Remaining after doing deleteOrders(): 446
+DEBUG:root:Turn Number: 100
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 978
+DEBUG:root:Time Remaining After Move: 643
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 643
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 642
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 640
+DEBUG:root:Time Remaining after doing deleteOrders(): 640
+DEBUG:root:Turn Number: 101
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 977
+DEBUG:root:Time Remaining After Move: 548
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 548
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 547
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 546
+DEBUG:root:Time Remaining after doing deleteOrders(): 546
+DEBUG:root:Turn Number: 102
+DEBUG:root:Time Remaining before updating dead ants: 991
+DEBUG:root:Time Remaining after updating dead ants: 991
+DEBUG:root:Time Remaining after appending: 972
+DEBUG:root:Time Remaining After Move: 501
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 501
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 500
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 499
+DEBUG:root:Time Remaining after doing deleteOrders(): 498
+DEBUG:root:Turn Number: 103
+DEBUG:root:Time Remaining before updating dead ants: 993
+DEBUG:root:Time Remaining after updating dead ants: 993
+DEBUG:root:Time Remaining after appending: 975
+DEBUG:root:Time Remaining After Move: 492
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 492
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 491
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 490
+DEBUG:root:Time Remaining after doing deleteOrders(): 490
+DEBUG:root:Turn Number: 104
+DEBUG:root:Time Remaining before updating dead ants: 992
+DEBUG:root:Time Remaining after updating dead ants: 992
+DEBUG:root:Time Remaining after appending: 975
+DEBUG:root:Time Remaining After Move: 334
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 334
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 333
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 331
+DEBUG:root:Time Remaining after doing deleteOrders(): 331
+DEBUG:root:Turn Number: 105
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 978
+DEBUG:root:Time Remaining After Move: 310
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 310
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 309
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 307
+DEBUG:root:Time Remaining after doing deleteOrders(): 307
+DEBUG:root:Turn Number: 106
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 979
+DEBUG:root:Time Remaining After Move: 624
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 624
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 624
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 622
+DEBUG:root:Time Remaining after doing deleteOrders(): 622
+DEBUG:root:Turn Number: 107
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 978
+DEBUG:root:Time Remaining After Move: 366
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 366
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 365
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 363
+DEBUG:root:Time Remaining after doing deleteOrders(): 363
+DEBUG:root:Turn Number: 108
+DEBUG:root:Time Remaining before updating dead ants: 992
+DEBUG:root:Time Remaining after updating dead ants: 992
+DEBUG:root:Time Remaining after appending: 973
+DEBUG:root:Time Remaining After Move: 666
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 666
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 665
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 663
+DEBUG:root:Time Remaining after doing deleteOrders(): 663
+DEBUG:root:Turn Number: 109
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 978
+DEBUG:root:Time Remaining After Move: 655
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 655
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 655
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 653
+DEBUG:root:Time Remaining after doing deleteOrders(): 653
+DEBUG:root:Turn Number: 110
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 978
+DEBUG:root:Time Remaining After Move: 493
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 493
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 493
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 491
+DEBUG:root:Time Remaining after doing deleteOrders(): 491
+DEBUG:root:Turn Number: 111
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 973
+DEBUG:root:Time Remaining After Move: 409
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 409
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 408
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 406
+DEBUG:root:Time Remaining after doing deleteOrders(): 406
+DEBUG:root:Turn Number: 112
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 997
+DEBUG:root:Time Remaining after appending: 977
+DEBUG:root:Time Remaining After Move: 608
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 608
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 607
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 605
+DEBUG:root:Time Remaining after doing deleteOrders(): 605
+DEBUG:root:Turn Number: 113
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 978
+DEBUG:root:Time Remaining After Move: 571
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 570
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 570
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 568
+DEBUG:root:Time Remaining after doing deleteOrders(): 568
+DEBUG:root:Turn Number: 114
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 978
+DEBUG:root:Time Remaining After Move: 498
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 498
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 497
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 495
+DEBUG:root:Time Remaining after doing deleteOrders(): 495
+DEBUG:root:Turn Number: 115
+DEBUG:root:Time Remaining before updating dead ants: 994
+DEBUG:root:Time Remaining after updating dead ants: 994
+DEBUG:root:Time Remaining after appending: 974
+DEBUG:root:Time Remaining After Move: 596
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 595
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 595
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 593
+DEBUG:root:Time Remaining after doing deleteOrders(): 593
+DEBUG:root:Turn Number: 116
+DEBUG:root:Time Remaining before updating dead ants: 994
+DEBUG:root:Time Remaining after updating dead ants: 994
+DEBUG:root:Time Remaining after appending: 976
+DEBUG:root:Time Remaining After Move: 165
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 165
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 164
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 162
+DEBUG:root:Time Remaining after doing deleteOrders(): 162
+DEBUG:root:Turn Number: 117
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 977
+DEBUG:root:Time Remaining After Move: 309
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 308
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 306
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 301
+DEBUG:root:Time Remaining after doing deleteOrders(): 301
+DEBUG:root:Turn Number: 118
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 977
+DEBUG:root:Time Remaining After Move: 474
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 474
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 473
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 469
+DEBUG:root:Time Remaining after doing deleteOrders(): 469
+DEBUG:root:Turn Number: 119
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 974
+DEBUG:root:Time Remaining After Move: 348
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 348
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 347
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 346
+DEBUG:root:Time Remaining after doing deleteOrders(): 346
+DEBUG:root:Turn Number: 120
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 977
+DEBUG:root:Time Remaining After Move: 524
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 524
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 524
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 522
+DEBUG:root:Time Remaining after doing deleteOrders(): 522
+DEBUG:root:Turn Number: 121
+DEBUG:root:Time Remaining before updating dead ants: 997
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 978
+DEBUG:root:Time Remaining After Move: 296
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 296
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 295
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 293
+DEBUG:root:Time Remaining after doing deleteOrders(): 293
+DEBUG:root:Turn Number: 122
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 971
+DEBUG:root:Time Remaining After Move: 344
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 344
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 343
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 342
+DEBUG:root:Time Remaining after doing deleteOrders(): 341
+DEBUG:root:Turn Number: 123
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 977
+DEBUG:root:Time Remaining After Move: 471
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 471
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 470
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 468
+DEBUG:root:Time Remaining after doing deleteOrders(): 468
+DEBUG:root:Turn Number: 124
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 976
+DEBUG:root:Time Remaining After Move: 594
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 593
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 593
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 591
+DEBUG:root:Time Remaining after doing deleteOrders(): 591
+DEBUG:root:Turn Number: 125
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 977
+DEBUG:root:Time Remaining After Move: 101
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 101
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 100
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 99
+DEBUG:root:Time Remaining after doing deleteOrders(): 99
+DEBUG:root:Turn Number: 126
+DEBUG:root:Time Remaining before updating dead ants: 992
+DEBUG:root:Time Remaining after updating dead ants: 992
+DEBUG:root:Time Remaining after appending: 972
+DEBUG:root:Time Remaining After Move: 447
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 447
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 446
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 444
+DEBUG:root:Time Remaining after doing deleteOrders(): 444
+DEBUG:root:Turn Number: 127
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 994
+DEBUG:root:Time Remaining after appending: 973
+DEBUG:root:Time Remaining After Move: 287
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 287
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 286
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 284
+DEBUG:root:Time Remaining after doing deleteOrders(): 284
+DEBUG:root:Turn Number: 128
+DEBUG:root:Time Remaining before updating dead ants: 991
+DEBUG:root:Time Remaining after updating dead ants: 990
+DEBUG:root:Time Remaining after appending: 965
+DEBUG:root:Time Remaining After Move: 240
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 240
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 239
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 237
+DEBUG:root:Time Remaining after doing deleteOrders(): 237
+DEBUG:root:Turn Number: 129
+DEBUG:root:Time Remaining before updating dead ants: 994
+DEBUG:root:Time Remaining after updating dead ants: 994
+DEBUG:root:Time Remaining after appending: 973
+DEBUG:root:Time Remaining After Move: 416
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 415
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 415
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 412
+DEBUG:root:Time Remaining after doing deleteOrders(): 412
+DEBUG:root:Turn Number: 130
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 975
+DEBUG:root:Time Remaining After Move: 4
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 3
+DEBUG:root:Time Remaining before doing move_ants(): 3
+DEBUG:root:Time Remaining after doing move_ants(): 3
+DEBUG:root:Time Remaining after doing deleteOrders(): 3
+DEBUG:root:Turn Number: 131
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 975
+DEBUG:root:Time Remaining After Move: 382
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 382
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 381
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 379
+DEBUG:root:Time Remaining after doing deleteOrders(): 379
+DEBUG:root:Turn Number: 132
+DEBUG:root:Time Remaining before updating dead ants: 989
+DEBUG:root:Time Remaining after updating dead ants: 989
+DEBUG:root:Time Remaining after appending: 967
+DEBUG:root:Time Remaining After Move: 279
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 278
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 278
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 276
+DEBUG:root:Time Remaining after doing deleteOrders(): 276
+DEBUG:root:Turn Number: 133
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 975
+DEBUG:root:Time Remaining After Move: 5
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 5
+DEBUG:root:Time Remaining before doing move_ants(): 5
+DEBUG:root:Time Remaining after doing move_ants(): 5
+DEBUG:root:Time Remaining after doing deleteOrders(): 5
+DEBUG:root:Turn Number: 134
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 974
+DEBUG:root:Time Remaining After Move: 189
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 189
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 187
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 186
+DEBUG:root:Time Remaining after doing deleteOrders(): 185
+DEBUG:root:Turn Number: 135
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 994
+DEBUG:root:Time Remaining after appending: 973
+DEBUG:root:Time Remaining After Move: 313
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 313
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 312
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 310
+DEBUG:root:Time Remaining after doing deleteOrders(): 310
+DEBUG:root:Turn Number: 136
+DEBUG:root:Time Remaining before updating dead ants: 993
+DEBUG:root:Time Remaining after updating dead ants: 993
+DEBUG:root:Time Remaining after appending: 972
+DEBUG:root:Turn Number: 137
+DEBUG:root:Time Remaining before updating dead ants: 989
+DEBUG:root:Time Remaining after updating dead ants: 989
+DEBUG:root:Time Remaining after appending: 967
+DEBUG:root:Time Remaining After Move: 272
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 271
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 270
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 268
+DEBUG:root:Time Remaining after doing deleteOrders(): 268
+DEBUG:root:Turn Number: 138
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 960
+DEBUG:root:Time Remaining After Move: 174
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 174
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 173
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 170
+DEBUG:root:Time Remaining after doing deleteOrders(): 170
+DEBUG:root:Turn Number: 139
+DEBUG:root:Time Remaining before updating dead ants: 991
+DEBUG:root:Time Remaining after updating dead ants: 991
+DEBUG:root:Time Remaining after appending: 970
+DEBUG:root:Time Remaining After Move: 164
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 164
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 162
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 161
+DEBUG:root:Time Remaining after doing deleteOrders(): 160
+DEBUG:root:Turn Number: 140
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 974
+DEBUG:root:Time Remaining After Move: 490
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 490
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 489
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 487
+DEBUG:root:Time Remaining after doing deleteOrders(): 487
+DEBUG:root:Turn Number: 141
+DEBUG:root:Time Remaining before updating dead ants: 989
+DEBUG:root:Time Remaining after updating dead ants: 988
+DEBUG:root:Time Remaining after appending: 966
+DEBUG:root:Time Remaining After Move: 16
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 16
+DEBUG:root:Time Remaining before doing move_ants(): 16
+DEBUG:root:Time Remaining after doing move_ants(): 16
+DEBUG:root:Time Remaining after doing deleteOrders(): 16
+DEBUG:root:Turn Number: 142
+DEBUG:root:Time Remaining before updating dead ants: 989
+DEBUG:root:Time Remaining after updating dead ants: 988
+DEBUG:root:Time Remaining after appending: 965
+DEBUG:root:Time Remaining After Move: 404
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 404
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 403
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 401
+DEBUG:root:Time Remaining after doing deleteOrders(): 401
+DEBUG:root:Turn Number: 143
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 974
+DEBUG:root:Time Remaining After Move: 409
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 409
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 408
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 406
+DEBUG:root:Time Remaining after doing deleteOrders(): 406
+DEBUG:root:Turn Number: 144
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 975
+DEBUG:root:Time Remaining After Move: 261
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 261
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 260
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 257
+DEBUG:root:Time Remaining after doing deleteOrders(): 257
+DEBUG:root:Turn Number: 145
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 974
+DEBUG:root:Time Remaining After Move: 270
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 270
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 268
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 266
+DEBUG:root:Time Remaining after doing deleteOrders(): 266
+DEBUG:root:Turn Number: 146
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 994
+DEBUG:root:Time Remaining after appending: 971
+DEBUG:root:Time Remaining After Move: 414
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 413
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 412
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 410
+DEBUG:root:Time Remaining after doing deleteOrders(): 410
+DEBUG:root:Turn Number: 147
+DEBUG:root:Time Remaining before updating dead ants: 992
+DEBUG:root:Time Remaining after updating dead ants: 992
+DEBUG:root:Time Remaining after appending: 970
+DEBUG:root:Turn Number: 148
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 962
+DEBUG:root:Time Remaining After Move: 457
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 456
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:Time Remaining before doing move_ants(): 453
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 447
+DEBUG:root:Time Remaining after doing deleteOrders(): 447
+DEBUG:root:Turn Number: 149
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 996
+DEBUG:root:Time Remaining after appending: 973
+DEBUG:root:Time Remaining After Move: 327
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 327
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 326
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 323
+DEBUG:root:Time Remaining after doing deleteOrders(): 323
+DEBUG:root:Turn Number: 150
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 970
+DEBUG:root:Time Remaining After Move: 121
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 121
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 119
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 117
+DEBUG:root:Time Remaining after doing deleteOrders(): 117
+DEBUG:root:Turn Number: 151
+DEBUG:root:Time Remaining before updating dead ants: 993
+DEBUG:root:Time Remaining after updating dead ants: 993
+DEBUG:root:Time Remaining after appending: 970
+DEBUG:root:Time Remaining After Move: 270
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 270
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:Time Remaining before doing move_ants(): 268
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 266
+DEBUG:root:Time Remaining after doing deleteOrders(): 266
+DEBUG:root:Turn Number: 152
+DEBUG:root:Time Remaining before updating dead ants: 992
+DEBUG:root:Time Remaining after updating dead ants: 992
+DEBUG:root:Time Remaining after appending: 968
+DEBUG:root:Time Remaining After Move: 209
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 208
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 207
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 204
+DEBUG:root:Time Remaining after doing deleteOrders(): 204
+DEBUG:root:Turn Number: 153
+DEBUG:root:Time Remaining before updating dead ants: 991
+DEBUG:root:Time Remaining after updating dead ants: 991
+DEBUG:root:Time Remaining after appending: 969
+DEBUG:root:Time Remaining After Move: 309
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 309
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['s']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['w']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:dirFinal ['n']
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 307
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 305
+DEBUG:root:Time Remaining after doing deleteOrders(): 305
+DEBUG:root:Turn Number: 154
+DEBUG:root:Time Remaining before updating dead ants: 989
+DEBUG:root:Time Remaining after updating dead ants: 989
+DEBUG:root:Time Remaining after appending: 966
+DEBUG:root:Time Remaining After Move: 966
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 966
+DEBUG:root:Time Remaining before doing move_ants(): 965
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 964
+DEBUG:root:Time Remaining after doing deleteOrders(): 964
+DEBUG:root:Turn Number: 155
+DEBUG:root:Time Remaining before updating dead ants: 994
+DEBUG:root:Time Remaining after updating dead ants: 994
+DEBUG:root:Time Remaining after appending: 970
+DEBUG:root:Time Remaining After Move: 915
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 915
+DEBUG:root:dirFinal ['s']
+DEBUG:root:Time Remaining before doing move_ants(): 915
+DEBUG:root:Time Remaining after doing move_ants(): 914
+DEBUG:root:Time Remaining after doing deleteOrders(): 913
+DEBUG:root:Turn Number: 156
+DEBUG:root:Time Remaining before updating dead ants: 988
+DEBUG:root:Time Remaining after updating dead ants: 988
+DEBUG:root:Time Remaining after appending: 964
+DEBUG:root:Time Remaining After Move: 848
+DEBUG:root:Time Remaining before doing randomMoves2() and after aStar: 847
+DEBUG:root:dirFinal ['e']
+DEBUG:root:Time Remaining before doing move_ants(): 847
+DEBUG:root:Got orders without directions
+DEBUG:root:Time Remaining after doing move_ants(): 846
+DEBUG:root:Time Remaining after doing deleteOrders(): 846
+DEBUG:root:Turn Number: 157
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 972
+DEBUG:root:Turn Number: 158
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 972
+DEBUG:root:Turn Number: 159
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 994
+DEBUG:root:Time Remaining after appending: 970
+DEBUG:root:Turn Number: 160
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 971
+DEBUG:root:Turn Number: 161
+DEBUG:root:Time Remaining before updating dead ants: 994
+DEBUG:root:Time Remaining after updating dead ants: 994
+DEBUG:root:Time Remaining after appending: 968
+DEBUG:root:Turn Number: 162
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 973
+DEBUG:root:Turn Number: 163
+DEBUG:root:Time Remaining before updating dead ants: 996
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 973
+DEBUG:root:Turn Number: 164
+DEBUG:root:Time Remaining before updating dead ants: 992
+DEBUG:root:Time Remaining after updating dead ants: 992
+DEBUG:root:Time Remaining after appending: 969
+DEBUG:root:Turn Number: 165
+DEBUG:root:Time Remaining before updating dead ants: 995
+DEBUG:root:Time Remaining after updating dead ants: 995
+DEBUG:root:Time Remaining after appending: 973

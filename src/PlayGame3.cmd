@@ -1,0 +1,1 @@
+python tools/playgame.py --fill --log_dir game_logs --turns 500 --engine_seed 42 --player_seed 42 --verbose -e --map_file "%~dp0tools\maps\random_walk\random_walk_02p_01.map" %* "java -jar MyBot2.jar" "java -jar MyBot.jar" 

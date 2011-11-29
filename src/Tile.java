@@ -6,7 +6,7 @@ public class Tile implements Comparable<Tile> {
     
     private final int col;
     
-    private int lastVisited = 0;
+    private double lastVisited = 0;
     
     boolean targeted = false; // True if another ant has issued an order to move to this location
     
@@ -17,6 +17,10 @@ public class Tile implements Comparable<Tile> {
     private boolean isPassable = true;
     
     private int type = constants.LAND;
+    
+    private int enemyInRadius = 0; // store number of enemies that can attack this tile
+    
+    private int numFriendlyPotential = 0;
     
     public int getType() {
 		return type;
@@ -133,12 +137,12 @@ public class Tile implements Comparable<Tile> {
     
     @Override
 	public String toString() {
-		return "Tile [row=" + row + ", col=" + col + ", targeted=" + targeted
+		return "Tile [row=" + row + ", col=" + col + ", numFriendlyPotential " + numFriendlyPotential + ", targeted=" + targeted
 				+ ", pValue=" + pValue + ", isOccupied " + isOccupied() + ", isVisible=" + isVisible
 				+ ", isPassable=" + isPassable() + ", type=" + type + "]";
 	}
 
-	public int getLastVisited() {
+	public double getLastVisited() {
 		return lastVisited;
 	}
 
@@ -147,7 +151,44 @@ public class Tile implements Comparable<Tile> {
 	}
 	
 	public void increaseLastVisited() {
-		if (lastVisited < 48)
-			lastVisited += 1;
+		if (lastVisited < 10)
+			lastVisited += 0.05;
+	}
+	
+	public void decreaseLastVisited() {
+		if (lastVisited > 0)
+			lastVisited -= 0.05;
+	}
+
+	public int getEnemyInRadius() {
+		return enemyInRadius;
+	}
+
+	public void setEnemyInRadius(int enemyInRadius) {
+		this.enemyInRadius = enemyInRadius;
+	}
+	
+	public void increaseEnemyInRadius() {
+		this.enemyInRadius++;
+	}
+	
+	public void decreaseEnemyInRadius() {
+		this.enemyInRadius--;
+	}
+
+	public int getNumFriendlyPotential() {
+		return numFriendlyPotential;
+	}
+
+	public void setNumFriendlyPotential(int numFriendlyPotential) {
+		this.numFriendlyPotential = numFriendlyPotential;
+	}
+	
+	public void increaseNumFriendlyPotential() {
+		numFriendlyPotential++;
+	}
+	
+	public void decreaseNumFriendlyPotential() {
+		numFriendlyPotential--;
 	}
 }

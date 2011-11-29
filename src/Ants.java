@@ -65,7 +65,7 @@ public class Ants {
 	private ArrayList<Ant> enemyAntList = new ArrayList<Ant>();
 	
     
-
+	
     public ArrayList<Pair> getOldFoodList() {
 		return oldFoodList;
 	}
@@ -174,6 +174,8 @@ public class Ants {
                 visibleSquares.add(antObjLoc);
                 grid[newLoc.getRow()][newLoc.getCol()].setVisible(true); // Tile is now visible
                 grid[antObj.getRow()][antObj.getCol()].setVisible(true);
+                gridImage[newLoc.getRow()][newLoc.getCol()].setVisible(true); // Tile is now visible
+                gridImage[antObj.getRow()][antObj.getCol()].setVisible(true);
             }
         }
     }
@@ -330,6 +332,10 @@ public class Ants {
     
     public Tile getTile(int row, int col) {
     	return grid[row][col];
+    }
+    
+    public Tile getTileImage(int row, int col) {
+    	return gridImage[row][col];
     }
     
     public Tile getTile(Ant ant) {
@@ -528,39 +534,51 @@ public class Ants {
      * Clears visible information
      */
     public void clearVisionAndTargets() {
-        for (int row = 0; row < rows; ++row) {
-            for (int col = 0; col < cols; ++col) {
+        for (int row = 0; row < rows; row++) {
+            for (int col = 0; col < cols; col++) {
                 grid[row][col].setVisible(false);
                 grid[row][col].setTargeted(false); // No longer targeted
-                visibleSquares.clear();
+                gridImage[row][col].setVisible(false);
+                gridImage[row][col].setTargeted(false); // No longer targeted
+                grid[row][col].setEnemyInRadius(0); // start with 0 will refill array
+                grid[row][col].setNumFriendlyPotential(0);
+                gridImage[row][col].setEnemyInRadius(0); // start with 0 will refill array
+                gridImage[row][col].setNumFriendlyPotential(0);
             }
         }
+        visibleSquares.clear();
     }
 
 
     public void updateTilePValue(int row, int col, double pValue) {
         grid[row][col].setPValue(pValue); 
+        gridImage[row][col].setPValue(pValue);
     }
     
     public void updateTileVisited(int row, int col) {
         grid[row][col].setLastVisited(0);
+        gridImage[row][col].setLastVisited(0);
     }
     
     public void updateTileType(Tile tile, int type) {
         grid[tile.getRow()][tile.getCol()].setType(type); 
+        gridImage[tile.getRow()][tile.getCol()].setType(type); 
         }
     
     public void updateTileType(int row, int col, int type) {
         grid[row][col].setType(type); 
+        gridImage[row][col].setType(type); 
         
         if (type == constants.WATER) {
         	grid[row][col].setPassable(false);
+        	gridImage[row][col].setPassable(false);
         }
         
         }
     
     public void updateTileType(Ant ant, int type) {
         grid[ant.getRow()][ant.getCol()].setType(type); 
+        gridImage[ant.getRow()][ant.getCol()].setType(type);       
         }
     
 
@@ -592,27 +610,25 @@ public class Ants {
     public double calculateNewPValue(int row, int col, Tile[][] typeGrid) {
     	int numPassable = 0;
     	double totalPValue = 0;
-    	double currentPValue = 0;
-    	double heuristic = 0;
-    	Pair pair = new Pair(row, col);
+
     	
-    	if (typeGrid[row][col].getPValue() == 0) { // Ant, Stop Scent from spreading
-    		return 0;
-    		//return typeGrid[row][col].getPValue();
-    	}
+//    	if (typeGrid[row][col].getPValue() == 0) { // Ant, Stop Scent from spreading
+//    		return 0;
+//    		//return typeGrid[row][col].getPValue();
+//    	}
     	
     	if (typeGrid[row][col].isPassable()) { // Not water
     		numPassable++;
     		totalPValue += typeGrid[row][col].getPValue();  // x = (x + a + b + c + d) / numPassable
-    	//	totalPValue += typeGrid[row][col].getLastVisited();	
-    		//currentPValue = typeGrid[row][col].getPValue(); 
-    		//numPassable = 0;
-//    			
+    		totalPValue += typeGrid[row][col].getLastVisited();	
+    		//currentPValue = typeGrid[row][col].getPValue();  			
     	}
     	
     	
     	else {
     	 	 //System.out.println("Num Passable: " + numPassable + " Row: " + row + " Col: " + col);
+    		typeGrid[row][col].setPValue(0); // Keep water tiles at 0
+    		//System.out.println(typeGrid[row][col]);
     		return 0; // water
     	}
     	
@@ -681,18 +697,23 @@ public class Ants {
     	 
     	//if (!ourHillList.isEmpty()) 
 			//heuristic = getDistance(pair, ourHillList.get(0)) * 0.1;
-    	
+
     	return (totalPValue / numPassable); // + currentPValue;	
     }
     
-    public Aim getLargestNeighbor(Pair square) { // NEED TO ACCOUNT FOR OUT OF BOUNDS
+    public Aim getLargestNeighbor(Pair square) { 
     	int row = square.getRow();
     	int col = square.getCol();
-    	double largestValue = 0;
+    	double largestValue = -25;
     	Aim direction = Aim.NORTH; // Default value so it can't return null
 
+//		if (largestValue < grid[row][col].getPValue()) { // check if current square is best square
+//				largestValue = grid[row][col].getPValue();
+//				direction = Aim.NORTH;
+//		}
+			
     	if	(row != 0) {
-    		if (grid[row-1][col].isPassable()) {
+    		if (grid[row-1][col].isPassable() && !grid[row-1][col].isTargeted()) { // check if water and if it has been targeted
     			if (largestValue < grid[row-1][col].getPValue()) {
     				largestValue = grid[row-1][col].getPValue();
     				direction = Aim.NORTH;
@@ -701,7 +722,7 @@ public class Ants {
     	}
     	
     	else {
-    		if (grid[rows-1][col].isPassable()) {
+    		if (grid[rows-1][col].isPassable() && !grid[rows-1][col].isTargeted()) {
     			if (largestValue < grid[rows-1][col].getPValue()) {
     				largestValue = grid[rows-1][col].getPValue();
     				direction = Aim.NORTH;
@@ -710,7 +731,7 @@ public class Ants {
     	}
     	
     	if	(col != 0) {
-    		if (grid[row][col-1].isPassable()) {
+    		if (grid[row][col-1].isPassable() && !grid[row][col-1].isTargeted()) {
     			if (largestValue < grid[row][col-1].getPValue()) {
     				largestValue = grid[row][col-1].getPValue();
     				direction = Aim.WEST;
@@ -719,7 +740,7 @@ public class Ants {
     	}
     	
     	else {
-    		if (grid[row][cols-1].isPassable()) {
+    		if (grid[row][cols-1].isPassable()  && !grid[row][cols-1].isTargeted()) {
     			if (largestValue < grid[row][cols-1].getPValue()) {
     				largestValue = grid[row][cols-1].getPValue();
     				direction = Aim.WEST;
@@ -728,7 +749,7 @@ public class Ants {
     	}
     	
       	if	(row != rows-1) {
-    		if (grid[row+1][col].isPassable()) {
+    		if (grid[row+1][col].isPassable()  && !grid[row+1][col].isTargeted()) {
     			if (largestValue < grid[row+1][col].getPValue()) {
     				largestValue = grid[row+1][col].getPValue();
     				direction = Aim.SOUTH;
@@ -737,7 +758,7 @@ public class Ants {
     	}
     	
     	else {
-    		if (grid[0][col].isPassable()) {
+    		if (grid[0][col].isPassable()  && !grid[0][col].isTargeted()) {
     			if (largestValue < grid[0][col].getPValue()) {
     				largestValue = grid[0][col].getPValue();
     				direction = Aim.SOUTH;
@@ -745,8 +766,8 @@ public class Ants {
     		}
     	}
       	
-      	if	(col != cols -1) {
-    		if (grid[row][col+1].isPassable()) {
+      	if	(col != cols-1) {
+    		if (grid[row][col+1].isPassable()  && !grid[row][col+1].isTargeted()) {
     			if (largestValue < grid[row][col+1].getPValue()) {
     				largestValue = grid[row][col+1].getPValue();
     				direction = Aim.EAST;
@@ -755,7 +776,7 @@ public class Ants {
     	}
     	
     	else {
-    		if (grid[row][0].isPassable()) {
+    		if (grid[row][0].isPassable()  && !grid[row][0].isTargeted()) {
     			if (largestValue < grid[row][0].getPValue()) {
     				largestValue = grid[row][0].getPValue();
     				direction = Aim.EAST;
@@ -771,46 +792,90 @@ public class Ants {
     }
     public void diffusion() {
     	
-    	 for (int i = 0; i < rows; i++) {  // For every tile in every row and column fill it with initial land.
+    	 for (int i = 0; i < rows; i++) {  // For every tile in every row and column calculate new diffusion p values
          	for (int j = 0; j < cols; j++) {
          		gridImage[i][j].setPValue(calculateNewPValue(i, j, grid));
-         		if (gridImage[i][j].isVisible() == false)
+         		if (gridImage[i][j].isVisible() == false) {
+         			grid[i][j].increaseLastVisited();
          			gridImage[i][j].increaseLastVisited();
+         		}
+         		else {
+         			gridImage[i][j].decreaseLastVisited();
+         			grid[i][j].decreaseLastVisited();
+         		}
          	}
     	 }
     	 
-    	 for (int i = 0; i < rows; i++) {  // For every tile in every row and column fill it with initial land.
+    	 for (int i = 0; i < rows; i++) {  
           	for (int j = 0; j < cols; j++) {
           		grid[i][j].setPValue(calculateNewPValue(i, j, gridImage));
+          		if (gridImage[i][j].isVisible() == false) {
+         			grid[i][j].increaseLastVisited();
+         			gridImage[i][j].increaseLastVisited();
+         		}
+         		else {
+         			gridImage[i][j].decreaseLastVisited();
+         			grid[i][j].decreaseLastVisited();
+         		};
           	}
      	 }
     	 
     	 
-    	 for (int i = 0; i < rows; i++) {  // For every tile in every row and column fill it with initial land.
+    	 for (int i = 0; i < rows; i++) { 
           	for (int j = 0; j < cols; j++) {
           		gridImage[i][j].setPValue(calculateNewPValue(i, j, grid));
-          		if (gridImage[i][j].isVisible() == false)
-          			gridImage[i][j].increaseLastVisited();
+         		if (gridImage[i][j].isVisible() == false) {
+         			grid[i][j].increaseLastVisited();
+         			gridImage[i][j].increaseLastVisited();
+         		}
+         		else {
+         			gridImage[i][j].decreaseLastVisited();
+         			grid[i][j].decreaseLastVisited();
+         		}
           	}
      	 }
      	 
-     	 for (int i = 0; i < rows; i++) {  // For every tile in every row and column fill it with initial land.
+     	 for (int i = 0; i < rows; i++) {  
            	for (int j = 0; j < cols; j++) {
            		grid[i][j].setPValue(calculateNewPValue(i, j, gridImage));
+           		if (gridImage[i][j].isVisible() == false) {
+         			grid[i][j].increaseLastVisited();
+         			gridImage[i][j].increaseLastVisited();
+         		}
+         		else {
+         			gridImage[i][j].decreaseLastVisited();
+         			grid[i][j].decreaseLastVisited();
+         		}
            	}
       	 }
-    	 
-    	 
-//    	// P(square) = (P(Neighbors) / # passable neighbors)
-//    	for (Pair square: visibleSquares) {
-//    		gridImage[square.getRow()][square.getCol()].setPValue(calculateNewPValue(square.getRow(), square.getCol(), grid));	
-//    		//System.out.println(gridImage[square.getRow()][square.getCol()].getPValue());
-//    	}
-//    	
-//    	for (Pair square: visibleSquares) {
-//    		grid[square.getRow()][square.getCol()].setPValue(calculateNewPValue(square.getRow(), square.getCol(), gridImage));	
-//    	}
-    	
+     	 
+     	for (int i = 0; i < rows; i++) { 
+          	for (int j = 0; j < cols; j++) {
+          		gridImage[i][j].setPValue(calculateNewPValue(i, j, grid));
+         		if (gridImage[i][j].isVisible() == false) {
+         			grid[i][j].increaseLastVisited();
+         			gridImage[i][j].increaseLastVisited();
+         		}
+         		else {
+         			gridImage[i][j].decreaseLastVisited();
+         			grid[i][j].decreaseLastVisited();
+         		}
+          	}
+     	 }
+     	 
+     	 for (int i = 0; i < rows; i++) {  
+           	for (int j = 0; j < cols; j++) {
+           		grid[i][j].setPValue(calculateNewPValue(i, j, gridImage));
+           		if (gridImage[i][j].isVisible() == false) {
+         			grid[i][j].increaseLastVisited();
+         			gridImage[i][j].increaseLastVisited();
+         		}
+         		else {
+         			gridImage[i][j].decreaseLastVisited();
+         			grid[i][j].decreaseLastVisited();
+         		}
+           	}
+      	 }
 
     	
     }
@@ -847,5 +912,339 @@ public class Ants {
 		this.ourHillList = ourHillList;
 	}
 	
+	public int updateEnemyInRadius(Ant enemyAnt) { // updates tiles by one that are in radius of enemy and returns
+		int row = enemyAnt.getRow(); // how many friendly ants can move into that radius next turn
+		int col = enemyAnt.getCol();
+		int numFriendly = 0;
+		
+		int rowPlusOne = row+1;
+		if (rowPlusOne == rows)
+			rowPlusOne = 0;
+		int colPlusOne = col+1;
+		if (colPlusOne == cols)
+			colPlusOne = 0;
+		int rowMinusOne = row-1;
+		if (rowMinusOne == -1)
+			rowMinusOne = rows-1;
+		int colMinusOne = col-1;
+		if (colMinusOne == -1)
+			colMinusOne = cols-1;
+		int rowMinusTwo = row-2;
+		if (rowMinusTwo == -1)
+			rowMinusTwo = rows-1;
+		if (rowMinusTwo == -2)
+			rowMinusTwo = rows-2;
+		int colMinusTwo = col-2;
+		if (colMinusTwo == -1)
+			colMinusTwo = cols-1;
+		if (colMinusTwo == -2)
+			colMinusTwo = cols-2;
+		int rowPlusTwo = row+2;
+		if (rowPlusTwo == rows)
+			rowPlusTwo = 0;
+		if (rowPlusTwo == rows+1)
+			rowPlusTwo = 1;
+		int colPlusTwo = col+2;
+		if (colPlusTwo == cols)
+			colPlusTwo = 0;
+		if (colPlusTwo == cols+1)
+			colPlusTwo = 1;
+		
+		
+		grid[row][col].increaseEnemyInRadius(); // can target own square
+		
+		if (row != rows-1) {	// 1 row up
+			grid[row+1][col].increaseEnemyInRadius();
+			numFriendly += grid[row+1][col].getNumFriendlyPotential();
+		}
+		else {
+			grid[0][col].increaseEnemyInRadius();
+			numFriendly += grid[0][col].getNumFriendlyPotential();
+		}
+		
+		if (row != rows-1 && row != rows-2)	{ // 2 row up
+			grid[row+2][col].increaseEnemyInRadius();
+			numFriendly += grid[row+2][col].getNumFriendlyPotential();
+		}
+		else {
+			grid[1][col].increaseEnemyInRadius();
+			numFriendly += grid[1][col].getNumFriendlyPotential();
+		}
+				
+		if (row != 0) {
+			grid[row-1][col].increaseEnemyInRadius(); // 1 row down
+			numFriendly += grid[row-1][col].getNumFriendlyPotential();
+		}
+		else {
+			grid[rows-1][col].increaseEnemyInRadius(); 
+			numFriendly += grid[rows-1][col].getNumFriendlyPotential();
+		}
+		if (row !=0 && row != 1) {					// 2 row down
+			grid[row-2][col].increaseEnemyInRadius();
+			numFriendly += grid[row-2][col].getNumFriendlyPotential();
+		}
+		else {
+			grid[rows-2][col].increaseEnemyInRadius();
+			numFriendly += grid[rows-2][col].getNumFriendlyPotential();
+		}
+		
+		
+		if (col != cols-1) {	// 1 col up
+			grid[row][col+1].increaseEnemyInRadius();
+			numFriendly += grid[row][col+1].getNumFriendlyPotential();
+		}
+		else {
+			grid[row][0].increaseEnemyInRadius();
+			numFriendly += grid[row][0].getNumFriendlyPotential();
+		}
+		
+		if (col != cols-1 && col != cols-2)	{ // 2 col up
+			grid[row][col+2].increaseEnemyInRadius();
+			numFriendly += grid[row][col+2].getNumFriendlyPotential();
+		}
+		else {
+			grid[row][1].increaseEnemyInRadius();
+			numFriendly += grid[row][1].getNumFriendlyPotential();
+		}
+				
+		if (col != 0) {
+			grid[row][col-1].increaseEnemyInRadius(); // 1 col down
+			numFriendly += grid[row][col-1].getNumFriendlyPotential();
+		}
+		else {
+			grid[row][cols-1].increaseEnemyInRadius(); 
+			numFriendly += grid[row][cols-1].getNumFriendlyPotential();
+		}
+		if (col !=0 && col != 1) {					// 2 col down
+			grid[row][col-2].increaseEnemyInRadius();
+			numFriendly += grid[row][col-2].getNumFriendlyPotential();
+		}
+		else {
+			grid[row][cols-2].increaseEnemyInRadius();
+			numFriendly += grid[row][cols-2].getNumFriendlyPotential();
+		}
+		
+		// 1 row down 1 col down (top left is (0,0))
+		grid[rowPlusOne][colPlusOne].increaseEnemyInRadius();
+		numFriendly += grid[rowPlusOne][colPlusOne].getNumFriendlyPotential();
+		
+		// 1 row up 1 col up (top left is (0,0))
+		grid[rowMinusOne][colMinusOne].increaseEnemyInRadius();
+		numFriendly += grid[rowMinusOne][colMinusOne].getNumFriendlyPotential();
+		
+		// 1 row up 1 col down (top left is (0,0))
+		grid[rowPlusOne][colMinusOne].increaseEnemyInRadius();
+		numFriendly += grid[rowPlusOne][colMinusOne].getNumFriendlyPotential();
+		
+		// 1 row down 1 col left (top left is (0,0))
+		grid[rowMinusOne][colPlusOne].increaseEnemyInRadius();
+		numFriendly += grid[rowMinusOne][colPlusOne].getNumFriendlyPotential();
+		
+		// 1 row down 2 col left (top left is (0,0))
+		grid[rowMinusOne][colMinusTwo].increaseEnemyInRadius();
+		numFriendly += grid[rowMinusOne][colMinusTwo].getNumFriendlyPotential();
+		
+		// 1 row up 2 col left (top left is (0,0))
+		grid[rowPlusOne][colMinusTwo].increaseEnemyInRadius();
+		numFriendly += grid[rowPlusOne][colMinusTwo].getNumFriendlyPotential();
+		
+		// 1 row down 2 col right (top left is (0,0))
+		grid[rowPlusOne][colPlusTwo].increaseEnemyInRadius();
+		numFriendly += grid[rowPlusOne][colPlusTwo].getNumFriendlyPotential();
+		
+		// 1 row up 2 col right (top left is (0,0))
+		grid[rowMinusOne][colPlusTwo].increaseEnemyInRadius();
+		numFriendly += grid[rowMinusOne][colPlusTwo].getNumFriendlyPotential();
+		
+		// 2 rows up 1 col right (top left is (0,0))
+		grid[rowMinusTwo][colPlusOne].increaseEnemyInRadius();
+		numFriendly += grid[rowMinusTwo][colPlusOne].getNumFriendlyPotential();
+				
+		// 2 rows down 1 col right (top left is (0,0))
+		grid[rowPlusTwo][colPlusOne].increaseEnemyInRadius();
+		numFriendly += grid[rowPlusTwo][colPlusOne].getNumFriendlyPotential();
+		
+		// 2 rows up 1 col left (top left is (0,0))
+		grid[rowMinusTwo][colMinusOne].increaseEnemyInRadius();
+		numFriendly += grid[rowMinusTwo][colMinusOne].getNumFriendlyPotential();
+						
+		// 2 rows down 1 col left (top left is (0,0))
+		grid[rowPlusTwo][colMinusOne].increaseEnemyInRadius();
+		numFriendly += grid[rowPlusTwo][colMinusOne].getNumFriendlyPotential();
+		
+		return numFriendly;
+	}
 	
+	public void updateRadiusValues(Ant enemyAnt) {
+		
+		int row = enemyAnt.getRow(); // how many friendly ants can move into that radius next turn
+		int col = enemyAnt.getCol();
+		
+		int rowPlusOne = row+1;
+		if (rowPlusOne == rows)
+			rowPlusOne = 0;
+		int colPlusOne = col+1;
+		if (colPlusOne == cols)
+			colPlusOne = 0;
+		int rowMinusOne = row-1;
+		if (rowMinusOne == -1)
+			rowMinusOne = rows-1;
+		int colMinusOne = col-1;
+		if (colMinusOne == -1)
+			colMinusOne = cols-1;
+		int rowMinusTwo = row-2;
+		if (rowMinusTwo == -1)
+			rowMinusTwo = rows-1;
+		if (rowMinusTwo == -2)
+			rowMinusTwo = rows-2;
+		int colMinusTwo = col-2;
+		if (colMinusTwo == -1)
+			colMinusTwo = cols-1;
+		if (colMinusTwo == -2)
+			colMinusTwo = cols-2;
+		int rowPlusTwo = row+2;
+		if (rowPlusTwo == rows)
+			rowPlusTwo = 0;
+		if (rowPlusTwo == rows+1)
+			rowPlusTwo = 1;
+		int colPlusTwo = col+2;
+		if (colPlusTwo == cols)
+			colPlusTwo = 0;
+		if (colPlusTwo == cols+1)
+			colPlusTwo = 1;
+	
+		if (grid[rowPlusOne][col].isPassable())
+			grid[rowPlusOne][col].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+		if (grid[rowPlusTwo][col].isPassable())
+			grid[rowPlusTwo][col].setPValue(constants.ENEMY_RADIUS_VALUE);
+				
+		if (grid[rowMinusTwo][col].isPassable())
+			grid[rowMinusTwo][col].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+		if (grid[rowMinusOne][col].isPassable())
+			grid[rowMinusOne][col].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+		if (grid[row][colPlusOne].isPassable())
+			grid[row][colPlusOne].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+		if (grid[row][colPlusTwo].isPassable())
+			grid[row][colPlusTwo].setPValue(constants.ENEMY_RADIUS_VALUE);
+				
+		if (grid[row][colMinusOne].isPassable())
+			grid[row][colMinusOne].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+		if (grid[row][colMinusTwo].isPassable())
+			grid[row][colMinusTwo].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+		
+		// 1 row down 1 col down (top left is (0,0))
+		if (grid[rowPlusOne][colPlusOne].isPassable())
+			grid[rowPlusOne][colPlusOne].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+		
+		// 1 row up 1 col up (top left is (0,0))
+		if (grid[rowMinusOne][colMinusTwo].isPassable())
+			grid[rowMinusOne][colMinusTwo].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+		// 1 row up 1 col down (top left is (0,0))
+		if (grid[rowPlusOne][colMinusOne].isPassable())
+			grid[rowPlusOne][colMinusOne].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+		
+		// 1 row down 1 col left (top left is (0,0))
+		if (grid[rowMinusOne][colPlusOne].isPassable())
+			grid[rowMinusOne][colPlusOne].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+		// 1 row down 2 col left (top left is (0,0))
+		if (grid[rowMinusOne][colMinusTwo].isPassable())
+			grid[rowMinusOne][colMinusTwo].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+		// 1 row up 2 col left (top left is (0,0))
+		if (grid[rowPlusOne][colMinusTwo].isPassable())
+			grid[rowPlusOne][colMinusTwo].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+		// 1 row down 2 col right (top left is (0,0))
+		if (grid[rowPlusOne][colPlusTwo].isPassable())
+			grid[rowPlusOne][colPlusTwo].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+		// 1 row up 2 col right (top left is (0,0))
+		if (grid[rowMinusOne][colPlusTwo].isPassable())
+			grid[rowMinusOne][colPlusTwo].setPValue(constants.ENEMY_RADIUS_VALUE);
+				
+		// 2 rows up 1 col right (top left is (0,0))
+		if (grid[rowMinusTwo][colPlusOne].isPassable())
+			grid[rowMinusTwo][colPlusOne].setPValue(constants.ENEMY_RADIUS_VALUE);
+				
+		// 2 rows down 1 col right (top left is (0,0))
+		
+		if (grid[rowPlusTwo][colPlusOne].isPassable())
+			grid[rowPlusTwo][colPlusOne].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+		// 2 rows up 1 col left (top left is (0,0))
+		if (grid[rowMinusTwo][colMinusOne].isPassable())
+			grid[rowMinusTwo][colMinusOne].setPValue(constants.ENEMY_RADIUS_VALUE);
+						
+		// 2 rows down 1 col left (top left is (0,0))
+		if (grid[rowPlusTwo][colMinusOne].isPassable())
+			grid[rowPlusTwo][colMinusOne].setPValue(constants.ENEMY_RADIUS_VALUE);
+		
+	}
+	public void updateFriendly(Ant antObj) {
+		int row = antObj.getRow();
+		int col = antObj.getCol();
+		
+		if (grid[row][col].isPassable()) { // Not water
+    		grid[row][col].increaseNumFriendlyPotential();     		
+    	}
+    	
+    	if (row !=0) {
+    		if (grid[row-1][col].isPassable()) {
+        		grid[row-1][col].increaseNumFriendlyPotential();
+    		}
+    	}
+    	
+    	else {
+    		if (grid[rows-1][col].isPassable()) { // rows is the max rows
+        		grid[rows-1][col].increaseNumFriendlyPotential();
+    		}
+    	}
+    	
+    	if (row != rows - 1) {
+    		if (grid[row+1][col].isPassable()) {
+        		grid[row+1][col].increaseNumFriendlyPotential();
+    		}
+    	}
+    	
+    	else {
+    		if (grid[0][col].isPassable()) { // rows is the max rows
+        		grid[0][col].increaseNumFriendlyPotential();
+    		}
+    	}
+    	
+    	if (col !=0) {
+    		if (grid[row][col-1].isPassable()) {
+        		grid[row][col-1].increaseNumFriendlyPotential();
+    		}
+    	}
+    	
+    	else {
+    		if (grid[row][cols-1].isPassable()) { // cols is the max rows
+        		grid[row][cols-1].increaseNumFriendlyPotential();
+    		}
+    	}
+    		
+    	
+    	if (col != cols-1) {
+    		if (grid[row][col+1].isPassable()) {
+        		grid[row][col+1].increaseNumFriendlyPotential();
+    		}
+    	}
+    	
+    	else {
+    		if (grid[row][0].isPassable()) { // rows is the max rows
+        		grid[row][0].increaseNumFriendlyPotential();
+    		}
+    	}
+	}
 }
